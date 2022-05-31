@@ -1,0 +1,11 @@
+{
+    "name": "Chrome Demo",
+    "description": "Leanring how to build a chrome extension",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting", "tabs"],
+    "host_permissions": ["http://localhost:3000/"]
+}
